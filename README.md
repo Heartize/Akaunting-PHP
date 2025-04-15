@@ -1,8 +1,8 @@
-# Heartize™ - Creative Agency
+# Heartize™ – Agencia Creativa Fullstack
 
-¿Quieres tu proyecto a medida?  
-Creamos experiencias digitales a medida: sitios únicos, tiendas con flow, sistemas que enamoran y marcas que dejan huella.
+¿Necesitas un proyecto a medida?  
+Creamos experiencias digitales únicas: sitios web impactantes, tiendas online con estilo, sistemas personalizados que enamoran y marcas que dejan huella.
 
-🎯 Desarrollo | 🎨 Diseño | 🛒 E-commerce | ⚙️ SaaS
+🎯 Desarrollo Web | 🎨 Diseño Gráfico | 🛍️ E-commerce | ⚙️ SaaS
 
-👉 Descubre lo que podemos hacer juntos: [www.heartize.com](https://www.heartize.com)
+🔗 [Descubre lo que podemos hacer juntos](https://www.heartize.com)
