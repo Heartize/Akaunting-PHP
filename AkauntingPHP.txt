@@ -1,0 +1,54 @@
+akaunting/
+│
+├── assets/                      # Archivos estáticos
+│   ├── css/                     # Hojas de estilo
+│   ├── js/                      # Archivos JavaScript
+│   └── img/                     # Imágenes
+│
+├── config/                      # Configuración
+│   ├── config.php               # Configuración general
+│   └── database.php             # Configuración de base de datos
+│
+├── controllers/                 # Controladores de la aplicación
+│   ├── DashboardController.php  
+│   ├── ClientController.php
+│   ├── InvoiceController.php
+│   ├── ProductController.php
+│   ├── TransactionController.php
+│   └── ...
+│
+├── models/                      # Modelos de datos
+│   ├── Client.php
+│   ├── Invoice.php
+│   ├── Product.php
+│   ├── Transaction.php
+│   └── ...
+│
+├── views/                       # Vistas (templates/HTML)
+│   ├── layouts/
+│   │   ├── header.php
+│   │   ├── footer.php
+│   │   └── sidebar.php
+│   ├── dashboard/
+│   ├── clients/
+│   ├── invoices/
+│   ├── products/
+│   └── ...
+│
+├── includes/                    # Funciones útiles y componentes
+│   ├── auth.php                 # Autenticación
+│   ├── functions.php            # Funciones generales
+│   └── helpers.php              # Helpers para vistas
+│
+├── database/                    # SQL y migraciones
+│   ├── schema.sql               # Estructura de la base de datos
+│   └── seed.sql                 # Datos de ejemplo
+│
+├── uploads/                     # Archivos subidos por usuarios
+│
+├── vendor/                      # Librerías externas (mínimas)
+│   └── ...
+│
+├── .htaccess                    # Configuración del servidor web
+├── index.php                    # Punto de entrada principal
+└── README.md                    # Documentación
