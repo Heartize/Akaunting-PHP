@@ -1,1 +1,1 @@
-Akaunting PHP Clone
+Akaunting PHP Clone.
