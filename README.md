@@ -10,7 +10,7 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
 #############################################################
 
 📂 Akaunting PHP Project Tree
-├── .htaccess
+<pre>├── .htaccess
 ├── AkauntingPHP.txt
 ├── LICENSE
 ├── README.md
@@ -159,3 +159,4 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
     └── warehouses
         ├── form.php
         └── index.php
+</pre>
