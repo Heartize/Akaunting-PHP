@@ -14,7 +14,10 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
 ├── AkauntingPHP.txt
 ├── LICENSE
 ├── README.md
+├── akaunting_php.sql
 ├── akaunting_php.zip
+├── api
+│   └── translate.php
 ├── assets
 │   ├── css
 │   │   └── styles.css
@@ -32,6 +35,7 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
 │   ├── CustomFieldController.php
 │   ├── DashboardController.php
 │   ├── InvoiceController.php
+│   ├── InvoiceTemplateController.php
 │   ├── ProductController.php
 │   ├── ReconciliationController.php
 │   ├── ReportController.php
@@ -65,6 +69,7 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
 │   ├── CustomFieldModel.php
 │   ├── InvoiceItemModel.php
 │   ├── InvoiceModel.php
+│   ├── InvoiceTemplateModel.php
 │   ├── ProductCategoryModel.php
 │   ├── ProductModel.php
 │   ├── ReconciliationModel.php
@@ -74,6 +79,8 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
 │   └── WarehouseModel.php
 ├── schema.sql
 ├── uploads
+│   ├── logo.png
+│   └── logo_1745168240.png
 └── views
     ├── accounts
     │   ├── form.php
@@ -109,6 +116,10 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
     │   ├── backup.php
     │   ├── export_import.php
     │   └── ui.php
+    ├── invoice_templates
+    │   ├── form.php
+    │   ├── index.php
+    │   └── preview.php
     ├── invoices
     │   ├── form.php
     │   ├── index.php
@@ -132,13 +143,13 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
     ├── reports
     │   ├── expense.php
     │   ├── income.php
-    │   ├── index.php
     │   ├── profit_loss.php
     │   └── tax.php
     ├── settings
     │   ├── backups.php
     │   ├── company.php
     │   ├── email.php
+    │   ├── invoice.php
     │   ├── settings_menu.php
     │   ├── taxes.php
     │   └── warehouses.php
