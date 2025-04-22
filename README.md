@@ -9,161 +9,28 @@ Creamos experiencias digitales únicas: sitios web impactantes, tiendas online c
 
 #############################################################
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Documentación Técnica Completa - Akaunting PHP</title>
-  <style>
-    :root {
-      --color-bg: #ecf0f1;
-      --color-primary: #2c3e50;
-      --color-secondary: #34495e;
-      --color-accent: #1abc9c;
-      --color-text: #2c3e50;
-      --color-light: #ffffff;
-      --font-sans: 'Segoe UI', Tahoma, sans-serif;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: var(--font-sans);
-      background: var(--color-bg);
-      color: var(--color-text);
-      display: flex;
-      height: 100vh;
-      overflow: hidden;
-    }
-    nav {
-      width: 280px;
-      background: var(--color-primary);
-      color: var(--color-light);
-      padding-top: 55px;
-      transition: transform 0.3s ease;
-      overflow-y: auto;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    }
-    nav h2 {
-      text-align: center;
-      margin-bottom: 1em;
-      font-size: 1.4em;
-      letter-spacing: 1px;
-    }
-    nav a {
-      display: block;
-      padding: 14px 20px;
-      text-decoration: none;
-      color: var(--color-light);
-      border-left: 4px solid transparent;
-      transition: background 0.3s, border-left 0.3s;
-    }
-    nav a:hover {
-      background: var(--color-secondary);
-    }
-    nav a.active {
-      background: var(--color-accent);
-      border-left: 4px solid var(--color-light);
-    }
-    #menu-toggle { display: none; }
-    label[for="menu-toggle"] {
-      background: var(--color-primary);
-      color: var(--color-light);
-      padding: 14px;
-      cursor: pointer;
-      position: fixed;
-      z-index: 10;
-      left: 0;
-      top: 0;
-      font-size: 1.2em;
-      width: 100%;
-      text-align: left;
-      border-bottom: 1px solid var(--color-secondary);
-    }
-    #menu-toggle:checked + nav {
-      transform: translateX(-100%);
-    }
-    main {
-      flex: 1;
-	  margin-top: 55px;
-      padding: 30px;
-      overflow-y: auto;
-      background: var(--color-bg);
-    }
-    section {
-      margin-bottom: 40px;
-      padding: 20px;
-      background: var(--color-light);
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    h1 {
-      font-size: 2em;
-      margin-bottom: 0.5em;
-      border-bottom: 2px solid var(--color-bg);
-      color: var(--color-primary);
-    }
-    h2 {
-      font-size: 1.5em;
-      margin-top: 1em;
-      color: var(--color-accent);
-    }
-    p, li { line-height: 1.6; }
-    pre {
-      background: #f7f7f7;
-      padding: 12px;
-      border-left: 4px solid var(--color-accent);
-      overflow-x: auto;
-      margin: 10px 0;
-      border-radius: 4px;
-      font-family: Consolas, monospace;
-    }
-	code {
-      background: #f7f7f7;
-      padding: 2px 4px;
-      border-radius: 3px;
-      font-family: Consolas, Monaco, monospace;
-      font-size: 0.9em;
-      color: #c7254e;
-    }
-    ul, ol { margin-left: 1.2em; }
-    @media (max-width: 768px) {
-      nav {
-        position: fixed;
-        height: 100%;
-        transform: translateX(0);
-        z-index: 9;
-      }
-      #menu-toggle:checked + nav { transform: translateX(-280px); }
-      main {
-        margin-left: 0;
-        padding-top: 60px;
-      }
-    }
-  </style>
-</head>
 <body>
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle">☰ Documentación Técnica</label>
   <nav>
-    <h2>Índice</h2>
-    <a href="#intro">Introducción</a>
-    <a href="#estructura">Estructura</a>
-    <a href="#req">Requisitos</a>
-    <a href="#instalacion">Instalación</a>
-    <a href="#config">Configuración</a>
-    <a href="#uso">Guía de Uso</a>
-    <a href="#modulos">Módulos</a>
-    <a href="#modelos">Modelos</a>
-    <a href="#vistas">Vistas</a>
-    <a href="#api">API Traducción</a>
-    <a href="#assets">Assets</a>
-    <a href="#includes">Includes</a>
-    <a href="#db">Base de Datos</a>
-    <a href="#scripts">Scripts</a>
-    <a href="#security">Seguridad</a>
-    <a href="#extender">Extender</a>
-    <a href="#faq">FAQ</a>
+    <h1>Índice</h1><br>
+    <a href="#intro">Introducción</a><br>
+    <a href="#estructura">Estructura</a><br>
+    <a href="#req">Requisitos</a><br>
+    <a href="#instalacion">Instalación</a><br>
+    <a href="#config">Configuración</a><br>
+    <a href="#uso">Guía de Uso</a><br>
+    <a href="#modulos">Módulos</a><br>
+    <a href="#modelos">Modelos</a><br>
+    <a href="#vistas">Vistas</a><br>
+    <a href="#api">API Traducción</a><br>
+    <a href="#assets">Assets</a><br>
+    <a href="#includes">Includes</a><br>
+    <a href="#db">Base de Datos</a><br>
+    <a href="#scripts">Scripts</a><br>
+    <a href="#security">Seguridad</a><br>
+    <a href="#extender">Extender</a><br>
+    <a href="#faq">FAQ</a><br>
   </nav>
   <main>
     <section id="intro">
